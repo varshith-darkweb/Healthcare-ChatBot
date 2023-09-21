@@ -1,0 +1,109 @@
+.fixed-panel {
+  min-height: 400px;
+  max-height: 400px;
+  background-color: #19313c;
+  color: rgb(199, 30, 30);
+  overflow: auto;
+}
+.media-list {
+  overflow: auto;
+  clear: both;
+  display: table;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+  line-break: strict;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 6px solid transparent;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-info {
+  border-color: #0c2735;
+}
+.panel-info > .panel-heading {
+  color: white;
+  background-color: #0c2735;
+  border-color: #0c2735;
+}
+.chatmessages{
+  height: 350px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #899bf4;
+}
+.input{
+    margin-top: 10px;
+    width: 780px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #899bf4;
+}
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #0c2735;
+  border-top: 1px solid #0c2735;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.container {
+    max-width: 800px;
+    margin-top:0;
+    margin-right:auto;
+    margin-bottom:0;
+    height: 500px;
+    margin-left:auto;
+    padding: 20px;
+    background-color: #786ff0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.button{
+  margin-top: 10px;
+    background-color: #09f919;
+    width: 70px;
+    height: 35px;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botText {
+  background-color: rgb(234, 120, 244);
+    color: #333333;
+    padding: 15px;
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 350px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+.userText{
+  background-color: rgb(240, 251, 145);
+    color: #333333;
+    text-align: right;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 0;   
+    width:fit-content;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+body {
+  background-image: url("image.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  margin: 100px;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
